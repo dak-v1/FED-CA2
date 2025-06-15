@@ -1,0 +1,390 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/jpg" href="../Graphics/favicon.png">
+    <title>SP70</title>
+    <link href="../CSS/index.css" rel="stylesheet" >
+    <link href="../CSS/nav.css" rel="stylesheet">
+    <!-- Name: Vijeyakumar Dakshaa
+    Student ID: P2415899
+    Class: DAAA/FT/1A/04
+    Date: 26/07/24 
+    Purpose: FED CA2-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../JS/clock.js" defer></script>
+</head>
+<body>
+    <!-- navigation -->
+    <!-- navbar-expand-md makes hamburger appear only for small screen -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" id="navBar">
+        <div class="container-fluid">
+            <!-- direct to SP70 website and SP70 logo-->
+          <a class="navbar-brand" href="https://www.sp.edu.sg/sp70" target="_blank" title="click to view SP70's official website"><img src="../Graphics/logo.png" alt="Logo" class="logo"></a>
+          <!-- hamburger menu toggle -->
+          <button class="navbar-toggler menu" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src = "../Graphics/menu.png" alt="menu">
+          </button>
+          <!-- navbar contents -->
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html" title="click to learn more about SP70">HOME</a>
+              </li>
+              <!-- dropdown navigation -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false" title="click to view SP70's achievements and future plans">THE SP STORY</a>
+                <ul class="dropdown-menu" id="dropText">
+                  <li><a class="dropdown-item" href="plan.html#achievements" title="click to view SP70's achievements">ACHIEVEMENTS</a></li>
+                  <li><a class="dropdown-item" href="plan.html#events" title="click to view SP70's events">EVENTS</a></li>
+                  <li><a class="dropdown-item" href="plan.html#futurePlan" title="click to view SP70's future plans">FUTURE PLANS</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="form.html" title="click to write words of encouragement for SP70">WELL WISHES</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+
+    <!-- content -->
+    <!-- hero section -->
+    <header id="header">
+        <div class="container-fluid d-grid gap-5">
+            <section class="row">
+                <div class="col-12 col-md-12 col-lg-6 text-center" id="headerText">
+                    <h1>HAPPY 70th BIRTHDAY SINGAPORE POLY!</h1>
+                </div>
+                <div class="col-12 col-md-6 mx-auto">
+                    <img src="../Graphics/header.png" alt="image of SP" class="img-fluid">
+                </div>
+                <div class="col-12">
+                  <div id="countdown" class="text-center">
+                    <div><span id="days" class="fs-1">0</span><br>Days</div>
+                    <div><span id="hrs" class="fs-1">0</span><br>Hours</div>
+                    <div><span id="mins" class="fs-1">0</span><br>Minutes</div>
+                    <div><span id="secs" class="fs-1">0</span><br>Seconds</div>
+                </div>
+                </div>
+            </section>
+        </div>
+        <!-- image for wave -->
+        <img class="waveImg" src="../Graphics/wave.png" alt="wave">
+    </header><br>
+
+    <!-- board content -->
+    <div class="container">
+      <h1 class="text-center text-danger display-3 fw-normal">----&nbsp;SP Board&nbsp;----</h1><br>
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col">
+          <div class="card small-card border-danger">
+            <img src="../Graphics/chairman.webp" class="card-img-top" alt="SP Chairman">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Ms Janet Ang</b><br>Chairman<br>Chairman, Public Transport Council<br>Chairman, Institute of Systems Science, NUS<br>Chairman, SISTIC.com</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card small-card border-danger">
+            <img src="../Graphics/deputyChair.png" class="card-img-top" alt="SP Deputy Chairman">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Mr Marcus H C Lam</b><br>Executive Chairman<br>PricewaterhouseCoopers LLP</p>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card small-card border-danger">
+            <img src="../Graphics/principal.png" class="card-img-top" alt="SP Principal">
+            <div class="card-body">
+              <p class="card-text text-center"><b>Mr Soh Wai Wah</b><br>Principal and CEO of Singapore Polytechnic</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-12 mt-5">
+          <blockquote class="blockquote">
+            <p>The never-ending search for new 
+              knowledge, new skills, and the 
+              perfection of old skills, is what 
+              ensures that we progress.              
+            </p><br>
+            <footer class="blockquote-footer">Then-Prime Minister Lee Kuan Yew <cite title="Source Title">at the official opening of Singapore Polytechnic’s Dover Road campus, 1979</cite></footer>
+          </blockquote>
+        </div>
+      </div>
+    </div><br>
+    
+    
+    
+    <!-- motto, vision and mission -->
+    <section class="motto">
+      <div class="container">
+        <!-- center the card on screen -->
+        <div class="row justify-content-center">
+          <div class="col-10">
+            <div class="card text-center">
+              <div class="card-header">
+                <!-- Unordered list to hold the tab items -->
+                 <!-- role: defines the element as a list of tab elements, which improves accessibility for users who rely on screen readers -->
+                <ul class="nav nav-tabs card-header-tabs" id="myTab" role="tablist">
+                  <!-- List item for the first tab -->
+                  <li class="nav-item" role="presentation">
+                    <!-- Link for the first tab, active by default -->
+                    <!-- data-bs-toggle="tab" lets users switch between tabs -->
+                    <a class="nav-link active" id="mission-tab" data-bs-toggle="tab" href="#mission" role="tab" aria-controls="mission" aria-selected="true">Mission</a>
+                  </li>
+                  <!-- List item for the second tab -->
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="vision-tab" data-bs-toggle="tab" href="#vision" role="tab" aria-controls="vision" aria-selected="false">Vision</a>
+                  </li>
+                  <!-- List item for the third tab -->
+                  <li class="nav-item" role="presentation">
+                    <a class="nav-link" id="coreValues-tab" data-bs-toggle="tab" href="#coreValues" role="tab" aria-controls="coreValues" aria-selected="false">Core Values</a>
+                  </li>
+                </ul>
+              </div>
+              <!-- Container for the tab content -->
+              <div class="card-body tab-content" id="myTabContent">
+                <!-- Content for the first tab, displayed by default -->
+                 <!-- show active means that the website shows contents of first tab by default -->
+                <div class="tab-pane fade show active" id="mission" role="tabpanel" aria-labelledby="mission-tab">
+                  <h5 class="card-title text-danger">SP Mission</h5>
+                  <p class="card-text">As a polytechnic for all ages<br>we prepare our learners to be<br>life ready, work ready, and world ready<br>for the transformation of Singapore</p>
+                </div>
+                <!-- Content for the second tab -->
+                <div class="tab-pane fade" id="vision" role="tabpanel" aria-labelledby="vision-tab">
+                  <h5 class="card-title text-danger">SP Vision</h5>
+                  <p class="card-text">Inspired Learner. Serve with Mastery. Caring Community<br>A caring community of inspired learners committed to serve with mastery.<br><br></p>
+                </div>
+                <!-- Content for the third tab -->
+                <div class="tab-pane fade" id="coreValues" role="tabpanel" aria-labelledby="coreValues-tab">
+                  <h5 class="card-title text-danger">SP Core Values</h5>
+                  <p class="card-text"><b>S</b>elf-Discipline<br><b>P</b>ersonal Integrity<br><b>C</b>are & Concern<br><b>O</b>peness<br><b>R</b>esponsibility<br><b>E</b>xcellence</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><br>
+    
+    <!-- table content -->
+    <!-- scope defines col or row -->
+    <!-- th is header cell  -->
+    <!-- td is table data -->
+    <div class="container">
+      <h1 class="text-center text-danger display-3 fw-normal">--&nbsp;Facts about SP&nbsp;--</h1><br>
+      <div class="container">
+        <table class="table table-hover">
+          <thead>
+            <tr>
+              <th scope="col">#</th>
+              <th scope="col">Polytechnic</th>
+              <th scope="col">Year Founded</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="table-danger">
+              <th scope="row">1</th>
+              <td>Singapore Poly</td>
+              <td>1954</td>
+            </tr>
+            <tr>
+              <th scope="row">2</th>
+              <td>Ngee Ann Poly</td>
+              <td>1963</td>
+            </tr>
+            <tr>
+              <th scope="row">3</th>
+              <td>Temasek Poly</td>
+              <td>1990</td>
+            </tr>
+            <tr>
+              <th scope="row">4</th>
+              <td>Nanyang Poly</td>
+              <td>1992</td>
+            </tr>
+            <tr>
+              <th scope="row">5</th>
+              <td>Republic Poly</td>
+              <td>2002</td>
+            </tr>
+          </tbody>
+        </table>
+      </div><br>
+
+      <!-- facts about SP (cards) -->
+      <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3">
+        <div class="col ">
+          <div class="card small-card border-danger">
+            <img src="../Graphics/firstPoly.png" class="card-img-top" alt="image of school">
+            <div class="card-body">
+              <p class="card-text text-center">SP is <b>Singapore's first polytechnic</b> established in <b>1954</b>. It has a rich history and has set the standard for top-tier education.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card small-card border-danger">
+            <img src="../Graphics/flippedClass.png" class="card-img-top" alt="image of class">
+            <div class="card-body">
+              <p class="card-text text-center">SP was among the <b>first</b> in the world to implement <b>flipped learning</b> at an institutional level.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card small-card border-danger">
+            <img src="../Graphics/connect.png" class="card-img-top" alt="image of people">
+            <div class="card-body">
+              <p class="card-text text-center">SP alumnus is <b>Singapore's largest poly alumni</b>. It also allows students to gain <b>first-hand exposure</b> to industry leading companies.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card small-card border-danger">
+            <img src="../Graphics/convenience.png" class="card-img-top" alt="image of train">
+            <div class="card-body">
+              <p class="card-text text-center">SP is the only polytechnic to be <b>connected directly to a MRT station</b> (Dover MRT). It also offers a <b>variety of food</b> from its <b>6</b> foodcourts.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card small-card border-danger">
+            <img src="../Graphics/sports.png" class="card-img-top" alt="image of sports">
+            <div class="card-body">
+              <p class="card-text text-center">SP offers <b>over a hundred CCA clubs</b> to choose from. It has a variety of sports, arts, service learning, special interests and constituent clubs for students to pick.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col ">
+          <div class="card small-card border-danger">
+            <img src="../Graphics/electives.png" class="card-img-top" alt="image of statistics">
+            <div class="card-body">
+              <p class="card-text text-center">SP is the <b>first polytechnic to introduce a fully customised elective programme</b>. It offers <b>over a hundred electives</b> for students to indulge so that they can fuel their thirst for knowledge and deepen thier expertise.</p>
+            </div>
+          </div>
+        </div>
+      </div>  
+    </div><br>
+
+    <!-- carousel -->
+    <div class="container-fluid d-grid gap-5">
+      <h1 class="text-center text-danger display-3 fw-normal">SP through the years</h1>
+      <section class="row">
+          <div class="col-12 col-md-6" id="slides">
+            <h6 class="text-center">Click the arrow to see how SP changed over the years!</h6>
+            <div id="carouselExample" class="carousel slide">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="../Graphics/building.png" class="d-block w-100" alt="SP building">
+                  <div class="carousel-caption">
+                    <h2 class="carouselText"><mark>SP in 1954</mark></h2>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="../Graphics/building1.png" class="d-block w-100" alt="SP building">
+                </div>
+                <div class="carousel-item">
+                  <img src="../Graphics/building2.png" class="d-block w-100" alt="SP building">
+                </div>
+                <div class="carousel-item">
+                  <img src="../Graphics/building3.png" class="d-block w-100" alt="SP building">
+                </div>
+                <div class="carousel-item">
+                  <img src="../Graphics/building4.png" class="d-block w-100" alt="SP building">
+                  <div class="carousel-caption">
+                    <h2 class="carouselText"><mark>SP now</mark></h2>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+          
+          <!-- accordion -->
+          <div class="col-12 col-md-6">
+              <h2 class="text-danger text-center display-5 fw-normal">Did you know?</h2><br>
+              <div class="accordion" id="accordionPanelsStayOpenExample">
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
+                      1954-1959
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                    <div class="accordion-body">
+                      SP was first established in 1954 and was initially located at Prince Edward Road. The official opening at this location was conducted by Prince Philip, the Duke of Edinburgh, on February 24, 1959!
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
+                      1970
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      In 1970, a temporary additional campus site was acquired at Ayer Rajah Road.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
+                      1971
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      Finally in 1971, our current campus site at Dover was chosen as the permanant home for SP.
+                    </div>
+                  </div>
+                </div>
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false" aria-controls="panelsStayOpen-collapseFour">
+                      1972
+                    </button>
+                  </h2>
+                  <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse">
+                    <div class="accordion-body">
+                      In 1972, when Ayer Rajah Road campus was completed, SP had 3 functioning campuses.
+                    </div>
+                  </div>
+                </div>
+              </div>
+          </div>
+      </section>
+  </div><br>
+  <footer class="p-3 footer">
+    <p>&copy;Vijeyakumar Dakshaa FED CA2</p>
+  </footer>
+</body>
+</html>
+
+<!-- credits
+menu icon: https://www.flaticon.com/free-icon/burger-bar_5358649?term=menu&page=1&position=10&origin=search&related_id=5358649
+SP biulding: https://www.google.com.sg/url?sa=i&url=https%3A%2F%2Fwww.sp.edu.sg%2Findustry%2Fco-location&psig=AOvVaw1AXO4x9wJsQOetUJA-c4Wk&ust=1722085667797000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCPjT75njxIcDFQAAAAAdAAAAABAE
+fact 1: https://storyset.com/illustration/college-students/pana
+fact 2: https://storyset.com/illustration/college-class/cuate
+fact 3: https://storyset.com/illustration/team-spirit/pana
+fact 4: https://storyset.com/illustration/train/amico
+fact 5: https://storyset.com/illustration/sport-family/amico
+fact 6: https://storyset.com/illustration/research-paper/cuate
+red bubble: https://storyset.com/illustration/graduation/bro
+SP building bcakground: https://www.wikidata.org/wiki/Q7523091
+SP building 1: https://www.roots.gov.sg/places/places-landing/Places/historic-sites/singapore-polytechnic
+SP building 2: https://www.flickr.com/photos/yrvphotography/6328198607
+SP building 3: https://www.todayonline.com/singapore/2-singapore-polytechnic-students-linked-jem-westgate-cluster-test-positive-covid-19
+All other photos are from the offcial SP website
+ -->

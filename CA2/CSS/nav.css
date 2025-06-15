@@ -1,0 +1,75 @@
+@charset "utf-8";
+
+/* Name: Vijeyakumar Dakshaa
+Student ID: P2415899
+Class: DAAA/FT/1A/04
+Date: 26/07/24 
+Purpose: FED CA2 */
+
+/* reset */
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+/* navigation styles */
+#navBar{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar{
+    padding: 0;
+    background-image: linear-gradient(to right, rgb(227, 18, 18), rgb(175, 2, 2));
+}
+
+.navbar-nav{
+    padding: 0 10px;
+}
+
+.navbar-nav a{
+    color:rgb(255, 255, 255);
+    font-weight: 600;
+    text-align: right; 
+}
+
+#dropText a{
+    color:rgb(205, 3, 3) !important;    
+}
+
+.navbar-nav a:hover {
+    text-decoration: underline;
+    color: white;
+}
+
+#dropText a:hover {
+    color: rgb(141, 5, 5) !important; 
+}
+
+.logo{
+    height: 60px;
+    transition: transform 0.5s ease;
+}
+
+.logo:hover{
+    transform: scale(1.2);
+}
+
+.menu img{
+    height: 30px;
+}
+
+
+/* footer styles */
+.footer{
+    background-image: linear-gradient(to right, rgb(227, 18, 18), rgb(175, 2, 2));
+    color: white;
+}
+
+.footer p{
+    text-align: center;
+    font-weight: 700;
+}

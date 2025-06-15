@@ -1,0 +1,27 @@
+@charset "utf-8";
+
+/* Name: Vijeyakumar Dakshaa
+Student ID: P2415899
+Class: DAAA/FT/1A/04
+Date: 26/07/24 
+Purpose: FED CA2 */
+
+body {
+    background-image: url('../Graphics/formBack.png');
+    background-size: cover;
+    background-position: center; 
+    background-attachment: fixed; 
+    height: 100%
+}
+
+
+/* age range styles */
+.range-container {
+    position: relative;
+    width: 100%;
+}
+.range-labels {
+    display: flex;
+    justify-content: space-between;
+    color: rgb(175, 2, 2);
+}

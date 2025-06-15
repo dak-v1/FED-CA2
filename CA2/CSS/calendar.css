@@ -1,0 +1,46 @@
+@charset "utf-8";
+
+#calendar_table {
+    background-color: rgb(231, 231, 231);  
+    font-size: 1.2em; 
+    width: 100%;       
+}
+
+#calendar_table caption {
+    caption-side: top; 
+    text-align: center;
+    padding-bottom: 20px; 
+    font-size: 2em; 
+    letter-spacing: 0.3em;
+    color: #c53221;
+}
+
+.calendar_weekdays {
+    background-color: #c53221;
+    width: 14.28%; 
+    color: white;
+    text-align: center;
+}
+
+.calendar_dates {
+    text-align: left; 
+    vertical-align: top;
+    font-size: 0.8em;
+    padding: 3px;
+    border: 1px solid rgb(0, 0, 0);
+    background-color: white;
+    height: 100px;
+}
+
+#calendar_today {
+    background-color: rgb(246, 165, 165);  
+}
+
+.event {
+    background-color: #c53221;
+    color: white;
+    padding: 2px;
+    margin-top: 10px;
+    border-radius: 3px;
+    text-align: center;
+}
